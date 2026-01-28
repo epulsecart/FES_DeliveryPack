@@ -1,0 +1,13 @@
+02_ASSETS/Software Requirements Specification (SRS).pdf	487029 bytes
+02_ASSETS/Untitled (2).pdf	6080462 bytes
+02_ASSETS/appArt.pdf	937461 bytes
+02_ASSETS/conceptual.pdf	923350 bytes
+02_ASSETS/domain.pdf	688963 bytes
+02_ASSETS/integration&API.pdf	808572 bytes
+02_ASSETS/logical.pdf	995144 bytes
+02_ASSETS/physycal.pdf	974668 bytes
+02_ASSETS/processmodel.pdf	847670 bytes
+02_ASSETS/roadmap.pdf	1271403 bytes
+02_ASSETS/security.pdf	657339 bytes
+02_ASSETS/structre & navigation.pdf	898901 bytes
+02_ASSETS/useCase.pdf	1289889 bytes
