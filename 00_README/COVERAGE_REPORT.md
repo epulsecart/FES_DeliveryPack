@@ -26,3 +26,4 @@
 - 02_ASSETS/Tables/Reports_List.csv
 - 02_ASSETS/Tables/Spec_to_Stage_Rules.md
 - 00_README/OPEN_QUESTIONS_RESOLUTION.md
+- 00_README/SECURITY_NOTE.md
