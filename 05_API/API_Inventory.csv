@@ -1,0 +1,5 @@
+APIID,Method,Path,Purpose,Auth,Idempotency,RateLimit,RequestSchema,ResponseSchema,ErrorCodes,OwnerSystem,Notes
+API-001,GET,/items/{thobe_num}/status,استعلام حالة المنتج وإرجاع الحركة وQC وETA,APIKey,N,120/min,StatusRequest,StatusResponse,"401,404,429",FES,يشمل سجل المراحل وQC وتذاكر الإصلاح
+API-002,POST,/webhooks/stage-event,استقبال أحداث الحركة مع توقيع HMAC,HMAC,Y (24h),60/min,StageEventWebhook,WebhookAck,"401,409,422",FES,"مجموعة أحداث دنيا: StageChanged, QCResult, RepairCreated"
+API-003,POST,/orders/import,استيراد بيانات المبيعات من Oracle (Upsert + تحديثات/إلغاء),APIKey,Y (24h),60/min,OracleOrderImport,ImportResult,"400,401,409",FES,يدعم Upsert وتحديثات الإلغاء/التعديل (V1.1)
+API-004,POST,/mobile/offline/sync,مزامنة Offline Queue من تطبيق PWA,JWT,Y,120/min,OfflineSyncRequest,OfflineSyncResponse,"401,409,422,429",FES,تزامن مرتب حسب QUEUED_AT مع Idempotency-Key

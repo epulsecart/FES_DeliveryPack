@@ -1,0 +1,82 @@
+openapi: 3.0.3
+info:
+  title: FES API
+  version: 0.1.0
+  description: FES API contract stub. Replace TODO sections after SRS intake.
+servers:
+  - url: https://api.example.com/fes
+
+components:
+  securitySchemes:
+    HMACAuth:
+      type: apiKey
+      in: header
+      name: X-Signature
+      description: TODO - HMAC scheme details
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+      description: TODO - API key scheme details
+    OAuth2JWT:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: TODO - OAuth2/JWT details
+
+paths:
+  /orders/import:
+    post:
+      summary: Import production orders
+      description: TODO - define request/response schemas and validation rules
+      security:
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              description: TODO - define schema
+      responses:
+        "200":
+          description: TODO - success response
+        "400":
+          description: TODO - validation error
+
+  /orders/{orderId}/status:
+    get:
+      summary: Pull order status
+      description: TODO - define fields and status mapping
+      security:
+        - OAuth2JWT: []
+      parameters:
+        - name: orderId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: TODO - success response
+        "404":
+          description: TODO - not found
+
+  /webhooks/order-status:
+    post:
+      summary: Receive external status update
+      description: TODO - validate signature and payload
+      security:
+        - HMACAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              description: TODO - define schema
+      responses:
+        "202":
+          description: TODO - accepted
+        "401":
+          description: TODO - unauthorized

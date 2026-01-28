@@ -1,0 +1,43 @@
+DefectCode,DefectName_AR,DefectName_EN,Severity(L/M/H),Category,DefaultPenaltyPoints,RequiresPhoto(Y/N),Description
+DF-001,غرزة غير مكتملة,Skipped Stitch,M,Stitching,3,Y,وجود غرز مفقودة في خط الخياطة
+DF-002,غرزة غير مستقيمة,Uneven Stitch,L,Stitching,1,N,خط الخياطة غير مستقيم
+DF-003,خيط مفكوك,Loose Thread,L,Stitching,1,N,خيوط غير مشدودة
+DF-004,تمزق في الخياطة,Seam Tear,H,Stitching,5,Y,تمزق واضح في الوصلة
+DF-005,عرض خياطة غير صحيح,Seam Allowance Error,M,Stitching,3,Y,عرض الخياطة خارج المعيار
+DF-006,انحراف تطابق القطع,Panel Misalignment,M,Alignment,3,Y,عدم تطابق الأجزاء أثناء التجميع
+DF-007,طول غير مطابق,Length Mismatch,H,Measurement,5,Y,الطول خارج الحدود
+DF-008,عرض غير مطابق,Width Mismatch,H,Measurement,5,Y,العرض خارج الحدود
+DF-009,كم غير متساوي,Uneven Sleeves,M,Measurement,3,Y,اختلاف طول الكم
+DF-010,ياقة غير متناسقة,Uneven Collar,M,Measurement,3,Y,عدم تماثل الياقة
+DF-011,عيب في القماش,Fabric Defect,M,Fabric,3,Y,عيب ظاهر في نسيج القماش
+DF-012,بقعة زيت/حبر,Stain,M,Fabric,3,Y,بقع مرئية على المنتج
+DF-013,ثقب في القماش,Hole,H,Fabric,5,Y,ثقب أو قطع في القماش
+DF-014,انكماش غير مقبول,Shrinkage,M,Fabric,3,Y,انكماش بعد الغسيل
+DF-015,اختلاف لون,Color Mismatch,M,Fabric,3,Y,عدم مطابقة اللون للمواصفة
+DF-016,تطريز غير مطابق,Embroidery Mismatch,M,Embroidery,3,Y,نمط التطريز غير مطابق
+DF-017,تطريز ناقص,Incomplete Embroidery,H,Embroidery,5,Y,جزء من التطريز مفقود
+DF-018,انحراف تطريز,Embroidery Misalignment,M,Embroidery,3,Y,موضع التطريز غير صحيح
+DF-019,أزرار غير مثبتة,Missing Buttons,M,Accessory,3,Y,زر أو أكثر غير مثبت
+DF-020,كبك غير محكم,Loose Cuff,M,Accessory,3,Y,الكبك غير محكم أو غير مطابق
+DF-021,عراوي غير مطابقة,Bad Buttonholes,M,Accessory,3,Y,العراوي غير مطابقة للمقاس
+DF-022,سحاب/إكسسوار تالف,Damaged Accessory,H,Accessory,5,Y,إكسسوار تالف أو مكسور
+DF-023,تجعيد/كي غير مقبول,Poor Pressing,L,Pressing,1,N,كي غير مطابق للمواصفة
+DF-024,حرق بالكي,Scorch Mark,H,Pressing,5,Y,علامة حرق بسبب الكي
+DF-025,تشطيب غير كامل,Incomplete Finishing,M,Finishing,3,Y,تشطيب ناقص أو غير مكتمل
+DF-026,تنظيف خيوط غير مكتمل,Thread Trimming Issue,L,Finishing,1,N,بقايا خيوط ظاهرة
+DF-027,تغليف غير مناسب,Poor Packaging,L,Packaging,1,N,تغليف غير مطابق للمعيار
+DF-028,بطاقة تعريف مفقودة,Missing Tag,L,Packaging,1,N,بطاقة المنتج غير موجودة
+DF-029,ملصق خاطئ,Wrong Label,M,Packaging,3,Y,ملصق غير مطابق للمنتج
+DF-030,رقم المنتج غير صحيح,Wrong Item ID,H,Identification,5,Y,رقم المنتج غير صحيح أو غير مطابق
+DF-031,مقاس غير مطابق للمواصفة,Size Spec Mismatch,H,Measurement,5,Y,المقاس خارج حدود المواصفة
+DF-032,اختلاف مواصفة العميل,Customer Spec Mismatch,H,Specification,5,Y,اختلاف عن مواصفات العميل
+DF-033,تمزق أثناء القص,Cutting Tear,M,Cutting,3,Y,تمزق حدث أثناء القص
+DF-034,قص غير نظيف,Rough Cutting,L,Cutting,1,N,حواف القص غير نظيفة
+DF-035,عدم مطابقة الملحقات,Accessory Mismatch,M,Accessory,3,Y,الإكسسوار غير مطابق للمواصفة
+DF-036,تلف أثناء النقل الداخلي,Handling Damage,M,Handling,3,Y,تلف أثناء المناولة
+DF-037,منتج غير نظيف,Dirty Item,M,Finishing,3,Y,اتساخ المنتج قبل التغليف
+DF-038,تفاوت لون الخياطة,Thread Color Mismatch,M,Stitching,3,Y,لون الخيط غير مطابق
+DF-039,تجميع غير صحيح,Wrong Assembly,H,Assembly,5,Y,خطأ في تجميع الأجزاء
+DF-040,خطأ في الإكسسوار المرفق,Wrong Accessory,M,Accessory,3,Y,إكسسوار غير صحيح
+DF-041,إبر مكسورة,Broken Needle Damage,H,Stitching,5,Y,تلف بسبب إبرة مكسورة
+DF-042,فتح غير محكم,Open Seam,M,Stitching,3,Y,فتح في الخياطة

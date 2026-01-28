@@ -1,0 +1,46 @@
+StageCode,StageName_AR,StageName_EN,StageType,SequenceDefault,IsSewing,IsInternal,IsExternal,RequiresQC,QCType(Default/Hidden/Final/None),RequiresPhotos,CanRunParallelForSameInvoice(Default),Notes
+STG-010_STORE,المخازن,Stores,STORE,10,N,Y,N,N,None,N,Y,استلام وحفظ المواد
+STG-020_RAW_ISSUE,صرف المواد الخام,Raw Material Issue,STORE,20,N,Y,N,N,None,N,Y,صرف داخلي
+STG-021_RAW_ISSUE_REPAIR,صرف مواد خام مباشر (للتصليح),Direct Issue for Repair,STORE,21,N,Y,N,N,None,N,Y,للإصلاح فقط
+STG-030_CUT_AUTO,قص القماش آلي,Auto Fabric Cutting,CUT,30,N,Y,N,N,None,N,Y,
+STG-031_CUT_MANUAL,قص القماش يدويا,Manual Fabric Cutting,CUT,31,N,Y,N,N,None,N,Y,
+STG-032_CUT_SORT,الترتيب بعد قص القماش,Post-Cut Sorting,CUT,32,N,Y,N,N,None,N,Y,
+STG-033_INTERLINING_AUTO,قص الحشوات آليا,Auto Interlining Cutting,CUT,33,N,Y,N,N,None,N,Y,
+STG-034_INTERLINING_MANUAL,قص الحشوة يدويا,Manual Interlining Cutting,CUT,34,N,Y,N,N,None,N,Y,
+STG-035_INTERLINING_SORT,الترتيب بعد قص الحشوة,Interlining Sorting,CUT,35,N,Y,N,N,None,N,Y,
+STG-040_PRESS_PRELIM,المكبس المبدئي,Preliminary Press,PRESS,40,N,Y,N,N,None,N,Y,
+STG-050_BUTTONHOLE,العراوي,Buttonhole,SEW,50,Y,Y,N,N,None,N,N,مرحلة خياطة داخلية
+STG-060_PRESS,المكبس,Press,PRESS,60,N,Y,N,N,None,N,Y,
+STG-070_EMBROIDERY,التطريز,Embroidery,EMBROID,70,N,Y,N,N,None,N,Y,يُضاف حسب المواصفة
+STG-080_SEW_MAIN,الخياطة,Main Sewing,SEW,80,Y,Y,N,N,None,N,N,مرحلة خياطة داخلية
+STG-085_PREP,التحضير,Preparation,PREP,85,N,Y,N,N,None,N,Y,
+STG-090_SLEEVE,الكم,Sleeve Sewing,SEW,90,Y,Y,N,N,None,N,N,
+STG-091_SLEEVE_GUSSET,جبزور الكم,Sleeve Gusset,SEW,91,Y,Y,N,N,None,N,N,
+STG-092_CUFF,الكبك,Cuff Sewing,SEW,92,Y,Y,N,N,None,N,N,
+STG-093_NECK,الرقبة,Neck Sewing,SEW,93,Y,Y,N,N,None,N,N,
+STG-094_GUSSET,الجبزور,Gusset Sewing,SEW,94,Y,Y,N,N,None,N,N,
+STG-095_CHEST_POCKET,جيب الصدر,Chest Pocket,SEW,95,Y,Y,N,N,None,N,N,
+STG-096_SIDE_POCKET,جيب الجنب,Side Pocket,SEW,96,Y,Y,N,N,None,N,N,
+STG-097_BODY_ASSEMBLY,تركيب البدنة,Body Assembly,SEW,97,Y,Y,N,N,None,N,N,
+STG-098_SLEEVES_ATTACH,تركيب الأكمام والجنوب,Attach Sleeves and Side,SEW,98,Y,Y,N,N,None,N,N,
+STG-099_SIDE_ATTACH,تركيب الجنب,Side Attach,SEW,99,Y,Y,N,N,None,N,N,
+STG-100_SLEEVE_GUSSET_ATTACH,تركيب جبزور الكم,Attach Sleeve Gusset,SEW,100,Y,Y,N,N,None,N,N,
+STG-101_CUFF_ATTACH,تركيب الكبك,Attach Cuff,SEW,101,Y,Y,N,N,None,N,N,
+STG-102_BODY_WITH_SIDE,تجميع البدنة مع الجنوب,Body with Side Assembly,SEW,102,Y,Y,N,N,None,N,N,
+STG-103_SEW_SIDE_EXTERNAL,خياطة الجنوب خياطة خارجية,External Side Sewing,SEW,103,Y,N,Y,N,None,N,N,مرحلة خياطة خارجية فقط
+STG-110_PRESS_INITIAL,كي أولي,Initial Ironing,PRESS,110,N,Y,N,N,None,N,Y,
+STG-120_LENGTH_SEW,خياطة الطول,Length Sewing,SEW,120,Y,Y,N,N,None,N,N,
+STG-130_NECK_ATTACH,تركيب الرقبة,Neck Attach,SEW,130,Y,Y,N,N,None,N,N,
+STG-140_QC_INITIAL,فحص جودة أولية,Initial QC,QC,140,N,Y,N,Y,Default,Y,Y,
+STG-150_FINISHING,التشطيب,Finishing,FINISH,150,N,Y,N,N,None,N,Y,
+STG-160_PRESS_NECK_INNER,مكبس الرقبة الداخلي,Inner Neck Press,PRESS,160,N,Y,N,N,None,N,Y,
+STG-170_PRESS_CUFF_INNER,مكبس الكبك الداخلي,Inner Cuff Press,PRESS,170,N,Y,N,N,None,N,Y,
+STG-180_BUTTONS_ATTACH,تركيب الأزرار,Buttons Attach,SEW,180,Y,Y,N,N,None,N,N,
+STG-190_IRONING,الكي,Final Ironing,PRESS,190,N,Y,N,N,None,N,Y,
+STG-200_QC_FINAL,فحص جودة نهائي,Final QC,QC,200,N,Y,N,Y,Final,Y,Y,
+STG-210_PACKING,التغليف,Packing,PACK,210,N,Y,N,N,None,N,Y,
+STG-220_SHIPPING,الشحن والتوصيل,Shipping,SHIP,220,N,Y,N,N,None,N,Y,
+STG-230_QC_BRANCH,فحص جودة في الفرع,Branch QC,QC,230,N,Y,N,Y,Default,Y,Y,فحص مبيعات الفروع
+STG-240_QC_HIDDEN,فحص جودة مخفي,Hidden QC,QC,240,N,Y,N,Y,Hidden,Y,Y,فحص مخفي ذكي
+STG-250_WASHING,غسيل القماش,Fabric Washing,WASH,250,N,Y,N,N,None,N,Y,يُضاف حسب المواصفة
+STG-260_ACCESSORIES,مرحلة الإكسسوار,Accessories Stage,ACCESSORY,260,N,Y,N,N,None,N,Y,يُضاف حسب المواصفة

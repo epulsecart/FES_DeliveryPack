@@ -1,0 +1,19 @@
+PenaltyID,DefectCode,Severity,DiscoveryLocation(InternalQC/FinalQC/CustomerReturn/HiddenQC),Role(Worker/Tailor/QC/Storekeeper/Manager),FirstOccurrencePoints,RepeatOccurrencePoints,MaxCapPerInvoice,Notes
+PEN-001,*,L,InternalQC,Worker,1,2,6,افتراضي للعيوب البسيطة
+PEN-002,*,M,InternalQC,Worker,3,5,10,افتراضي للعيوب المتوسطة
+PEN-003,*,H,InternalQC,Worker,5,8,15,افتراضي للعيوب العالية
+PEN-004,*,L,FinalQC,Worker,2,3,6,تشديد في QC النهائي
+PEN-005,*,M,FinalQC,Worker,4,6,12,تشديد في QC النهائي
+PEN-006,*,H,FinalQC,Worker,6,10,18,تشديد في QC النهائي
+PEN-007,*,L,CustomerReturn,Worker,3,5,10,مرتجع من العميل
+PEN-008,*,M,CustomerReturn,Worker,6,9,15,مرتجع من العميل
+PEN-009,*,H,CustomerReturn,Worker,10,15,25,مرتجع من العميل
+PEN-010,*,L,HiddenQC,Worker,3,5,10,فحص مخفي
+PEN-011,*,M,HiddenQC,Worker,6,9,15,فحص مخفي
+PEN-012,*,H,HiddenQC,Worker,10,15,25,فحص مخفي
+PEN-013,*,M,InternalQC,Tailor,3,5,10,متعاقد خارجي
+PEN-014,*,H,FinalQC,Tailor,6,10,18,متعاقد خارجي
+PEN-015,*,M,InternalQC,QC,2,3,6,خطأ فحص
+PEN-016,*,H,HiddenQC,QC,4,6,12,خطأ فحص مخفي
+PEN-017,*,M,InternalQC,Storekeeper,2,4,8,خطأ مناولة/صرف
+PEN-018,*,H,CustomerReturn,Manager,0,0,0,لا تُطبق جزاءات على المدير؛ للمراجعة فقط

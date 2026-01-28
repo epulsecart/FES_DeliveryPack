@@ -1,0 +1,8 @@
+IntegrationID,System,Direction(Pull/Push/BiDir),Method(REST/Webhook/File),Priority(MVP/V1+),Frequency,Auth(HMAC/APIKey/JWT/None),Idempotency(Y/N),RateLimit,Owner,Dependencies,Risks,Notes
+INT-001,Oracle Sales,Pull,REST,MVP,Every 15 min,APIKey,Y,60/min,Integration,"Oracle endpoint, field mapping",Data quality/field drift,يستورد الفواتير والمنتجات والمواصفات والموعد + يدعم Upsert وتحديثات/إلغاء في V1.1
+INT-002,Tailoring System,Pull,REST,MVP,On-demand,APIKey,N,120/min,Integration,THOBE_NUM mapping,Contract mismatch,يوفر حالة المنتج والـ QC وETA
+INT-003,Tailoring System,Push,Webhook,MVP,Event-driven,HMAC,Y,60/min,Integration,Webhook endpoint readiness,Delivery failures,"مجموعة أحداث دنيا: StageChanged, QCResult, RepairCreated"
+INT-004,WhatsApp Provider,Push,REST,MVP,Event-driven,APIKey,N,30/min,Integration,Template approvals,Delivery rate limits,قناة WhatsApp أساسية
+INT-005,OTP/2FA Provider,Push,REST,V1+,On-demand,APIKey,N,TBD,Security,Policy decision,User impact,غير مطلوب في MVP
+INT-006,File Exports (SharePoint/S3),Push,File,V1+,Daily/Weekly,None,N,TBD,Ops,Storage access,Data leakage,حسب متطلبات العقد
+INT-007,Oracle Sales,Pull,REST,V1+,Every 15 min,APIKey,Y,60/min,Integration,"Order update endpoints, field mapping",Order state conflicts,تحديثات إلغاء/تعديل ومواعيد التسليم (O-001)

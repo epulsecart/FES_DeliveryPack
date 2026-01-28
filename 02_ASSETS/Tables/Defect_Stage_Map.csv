@@ -1,0 +1,128 @@
+StageCode,DefectCode,Allowed(Y/N),DefaultSeverityOverride,Notes
+STG-080_SEW_MAIN,DF-001,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-001,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-001,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-001,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-001,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-002,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-002,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-002,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-002,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-002,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-003,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-003,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-003,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-003,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-003,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-004,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-004,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-004,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-004,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-004,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-005,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-005,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-005,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-005,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-005,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-038,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-038,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-038,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-038,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-038,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-041,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-041,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-041,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-041,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-041,Y,,عيوب خياطة في مرحلة خياطة
+STG-080_SEW_MAIN,DF-042,Y,,عيوب خياطة في مرحلة خياطة
+STG-090_SLEEVE,DF-042,Y,,عيوب خياطة في مرحلة خياطة
+STG-120_LENGTH_SEW,DF-042,Y,,عيوب خياطة في مرحلة خياطة
+STG-180_BUTTONS_ATTACH,DF-042,Y,,عيوب خياطة في مرحلة خياطة
+STG-103_SEW_SIDE_EXTERNAL,DF-042,Y,,عيوب خياطة في مرحلة خياطة
+STG-140_QC_INITIAL,DF-007,Y,,عيوب قياسات يتم التقاطها في QC
+STG-200_QC_FINAL,DF-007,Y,,عيوب قياسات يتم التقاطها في QC
+STG-230_QC_BRANCH,DF-007,Y,,عيوب قياسات يتم التقاطها في QC
+STG-240_QC_HIDDEN,DF-007,Y,,عيوب قياسات يتم التقاطها في QC
+STG-140_QC_INITIAL,DF-008,Y,,عيوب قياسات يتم التقاطها في QC
+STG-200_QC_FINAL,DF-008,Y,,عيوب قياسات يتم التقاطها في QC
+STG-230_QC_BRANCH,DF-008,Y,,عيوب قياسات يتم التقاطها في QC
+STG-240_QC_HIDDEN,DF-008,Y,,عيوب قياسات يتم التقاطها في QC
+STG-140_QC_INITIAL,DF-009,Y,,عيوب قياسات يتم التقاطها في QC
+STG-200_QC_FINAL,DF-009,Y,,عيوب قياسات يتم التقاطها في QC
+STG-230_QC_BRANCH,DF-009,Y,,عيوب قياسات يتم التقاطها في QC
+STG-240_QC_HIDDEN,DF-009,Y,,عيوب قياسات يتم التقاطها في QC
+STG-140_QC_INITIAL,DF-010,Y,,عيوب قياسات يتم التقاطها في QC
+STG-200_QC_FINAL,DF-010,Y,,عيوب قياسات يتم التقاطها في QC
+STG-230_QC_BRANCH,DF-010,Y,,عيوب قياسات يتم التقاطها في QC
+STG-240_QC_HIDDEN,DF-010,Y,,عيوب قياسات يتم التقاطها في QC
+STG-140_QC_INITIAL,DF-031,Y,,عيوب قياسات يتم التقاطها في QC
+STG-200_QC_FINAL,DF-031,Y,,عيوب قياسات يتم التقاطها في QC
+STG-230_QC_BRANCH,DF-031,Y,,عيوب قياسات يتم التقاطها في QC
+STG-240_QC_HIDDEN,DF-031,Y,,عيوب قياسات يتم التقاطها في QC
+STG-030_CUT_AUTO,DF-011,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-011,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-011,Y,,اكتشاف في QC أولي
+STG-030_CUT_AUTO,DF-012,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-012,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-012,Y,,اكتشاف في QC أولي
+STG-030_CUT_AUTO,DF-013,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-013,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-013,Y,,اكتشاف في QC أولي
+STG-030_CUT_AUTO,DF-014,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-014,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-014,Y,,اكتشاف في QC أولي
+STG-030_CUT_AUTO,DF-015,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-015,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-015,Y,,اكتشاف في QC أولي
+STG-030_CUT_AUTO,DF-033,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-033,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-033,Y,,اكتشاف في QC أولي
+STG-030_CUT_AUTO,DF-034,Y,,عيوب قماش أثناء القص
+STG-031_CUT_MANUAL,DF-034,Y,,عيوب قماش أثناء القص
+STG-140_QC_INITIAL,DF-034,Y,,اكتشاف في QC أولي
+STG-070_EMBROIDERY,DF-016,Y,,عيوب تطريز أثناء التطريز
+STG-140_QC_INITIAL,DF-016,Y,,اكتشاف في QC أولي
+STG-070_EMBROIDERY,DF-017,Y,,عيوب تطريز أثناء التطريز
+STG-140_QC_INITIAL,DF-017,Y,,اكتشاف في QC أولي
+STG-070_EMBROIDERY,DF-018,Y,,عيوب تطريز أثناء التطريز
+STG-140_QC_INITIAL,DF-018,Y,,اكتشاف في QC أولي
+STG-180_BUTTONS_ATTACH,DF-019,Y,,عيوب إكسسوارات أثناء التركيب
+STG-200_QC_FINAL,DF-019,Y,,اكتشاف في QC نهائي
+STG-180_BUTTONS_ATTACH,DF-020,Y,,عيوب إكسسوارات أثناء التركيب
+STG-200_QC_FINAL,DF-020,Y,,اكتشاف في QC نهائي
+STG-180_BUTTONS_ATTACH,DF-021,Y,,عيوب إكسسوارات أثناء التركيب
+STG-200_QC_FINAL,DF-021,Y,,اكتشاف في QC نهائي
+STG-180_BUTTONS_ATTACH,DF-022,Y,,عيوب إكسسوارات أثناء التركيب
+STG-200_QC_FINAL,DF-022,Y,,اكتشاف في QC نهائي
+STG-180_BUTTONS_ATTACH,DF-035,Y,,عيوب إكسسوارات أثناء التركيب
+STG-200_QC_FINAL,DF-035,Y,,اكتشاف في QC نهائي
+STG-180_BUTTONS_ATTACH,DF-040,Y,,عيوب إكسسوارات أثناء التركيب
+STG-200_QC_FINAL,DF-040,Y,,اكتشاف في QC نهائي
+STG-040_PRESS_PRELIM,DF-023,Y,,عيوب كي
+STG-190_IRONING,DF-023,Y,,عيوب كي نهائي
+STG-200_QC_FINAL,DF-023,Y,,اكتشاف في QC نهائي
+STG-040_PRESS_PRELIM,DF-024,Y,,عيوب كي
+STG-190_IRONING,DF-024,Y,,عيوب كي نهائي
+STG-200_QC_FINAL,DF-024,Y,,اكتشاف في QC نهائي
+STG-150_FINISHING,DF-025,Y,,عيوب تشطيب
+STG-200_QC_FINAL,DF-025,Y,,اكتشاف في QC نهائي
+STG-150_FINISHING,DF-026,Y,,عيوب تشطيب
+STG-200_QC_FINAL,DF-026,Y,,اكتشاف في QC نهائي
+STG-150_FINISHING,DF-037,Y,,عيوب تشطيب
+STG-200_QC_FINAL,DF-037,Y,,اكتشاف في QC نهائي
+STG-210_PACKING,DF-027,Y,,عيوب تغليف
+STG-230_QC_BRANCH,DF-027,Y,,اكتشاف في الفرع
+STG-210_PACKING,DF-028,Y,,عيوب تغليف
+STG-230_QC_BRANCH,DF-028,Y,,اكتشاف في الفرع
+STG-210_PACKING,DF-029,Y,,عيوب تغليف
+STG-230_QC_BRANCH,DF-029,Y,,اكتشاف في الفرع
+STG-140_QC_INITIAL,DF-030,Y,,تحقق مواصفات
+STG-200_QC_FINAL,DF-030,Y,,تحقق مواصفات نهائي
+STG-240_QC_HIDDEN,DF-030,Y,H,رفع الشدة في الفحص المخفي
+STG-140_QC_INITIAL,DF-032,Y,,تحقق مواصفات
+STG-200_QC_FINAL,DF-032,Y,,تحقق مواصفات نهائي
+STG-240_QC_HIDDEN,DF-032,Y,H,رفع الشدة في الفحص المخفي
+STG-020_RAW_ISSUE,DF-036,Y,,تلف أثناء المناولة
+STG-210_PACKING,DF-036,Y,,تلف أثناء المناولة
+STG-097_BODY_ASSEMBLY,DF-039,Y,,خطأ تجميع
+STG-200_QC_FINAL,DF-039,Y,,اكتشاف نهائي

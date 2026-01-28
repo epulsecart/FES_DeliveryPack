@@ -1,0 +1,10 @@
+TemplateID,TemplateName,Language(AR/EN),TriggerEvent,MessageBody,Variables,Channel(WhatsApp/SMS/Email),Notes
+WA-001,Training Required,AR,TRAINING_REQUIRED,مرحباً {EMP_NAME}، لديك تدريب مطلوب لمرحلة {STAGE_NAME}، الرجاء الإكمال قبل {DUE_DATE}.,"EMP_NAME,STAGE_NAME,DUE_DATE",WhatsApp,
+WA-002,Item Moved,AR,ITEM_MOVED,تم نقل المنتج {ITEM_ID} إلى مرحلة {TO_STAGE} بواسطة {USER_NAME} بتاريخ {MOVE_TIME}.,"ITEM_ID,TO_STAGE,USER_NAME,MOVE_TIME",WhatsApp,
+WA-003,QC Failed,AR,QC_FAILED,فشل فحص الجودة للمنتج {ITEM_ID} في {QC_TYPE}، السبب: {DEFECT_CODE}.,"ITEM_ID,QC_TYPE,DEFECT_CODE",WhatsApp,
+WA-004,Repair Assigned,AR,REPAIR_ASSIGNED,تم إنشاء تذكرة إصلاح {RPR_ID} للمنتج {ITEM_ID}، الموعد: {DUE_DATE}.,"RPR_ID,ITEM_ID,DUE_DATE",WhatsApp,
+WA-005,Repair Due Soon,AR,REPAIR_DUE_SOON,تذكير: تذكرة الإصلاح {RPR_ID} للمنتج {ITEM_ID} موعدها {DUE_DATE}.,"RPR_ID,ITEM_ID,DUE_DATE",WhatsApp,
+WA-006,Repair Closed,AR,REPAIR_CLOSED,تم إغلاق تذكرة الإصلاح {RPR_ID} للمنتج {ITEM_ID}.,"RPR_ID,ITEM_ID",WhatsApp,
+WA-007,Payroll Ready,AR,PAYROLL_READY,تم تجهيز مسير الرواتب للفترة {PERIOD_FROM} إلى {PERIOD_TO}.,"PERIOD_FROM,PERIOD_TO",WhatsApp,
+WA-008,Export Failure,AR,EXPORT_FAILED,فشل تصدير التقرير {REPORT_NAME}، الرجاء التحقق من النظام.,REPORT_NAME,WhatsApp,
+WA-009,Export Failure,EN,EXPORT_FAILED,Report export failed: {REPORT_NAME}. Please check the system.,REPORT_NAME,Email,Fallback channel
